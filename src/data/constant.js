@@ -24,11 +24,12 @@ export { logo };
 
 // company
 export const companyDetails = {
-  name: "AI Company",
-  address:
-    " Lorem ipsum dolor, sit amet consectetur adipisicing elit. Non voluptatem vero aut earum molestias recusandae.",
-  phone: "+0000000000",
+  name: "WaveGenX AI",
+  address: " No 25/5, Anna street , Korattur , Chennai - 600080",
+  phone: "+91-8056078722",
   email: "abc@example.com",
+  whatsapplink:
+    "https://api.whatsapp.com/send/?phone=918056078722&text&type=phone_number&app_absent=0",
 };
 
 // working process
@@ -126,7 +127,7 @@ export const testimonials = [
   {
     name: "Sarah L.",
     position: "Marketing Director, SecureChain Innovations",
-    desc: `"[Company Name] really took our online presence to the next level. From day one, they
+    desc: `"WaveGenX AI really took our online presence to the next level. From day one, they
 understood our vision and designed a website that not only looks amazing but also works
 seamlessly. We’ve seen a huge improvement in site performance and customer engagement.
 They really went above and beyond, and we couldn’t be happier with the results."`,
@@ -135,7 +136,7 @@ They really went above and beyond, and we couldn’t be happier with the results
   {
     name: "James T.",
     position: "CEO, FinTech Group",
-    desc: `"Working with [Company Name] was such a smooth and rewarding experience. They built a
+    desc: `"Working with WaveGenX AI was such a smooth and rewarding experience. They built a
 fully customized website for us that aligned perfectly with our brand. It’s faster, easier to
 navigate, and has greatly improved our search rankings. Their commitment to our project
 didn’t end with launch—they’ve continued to support us with ongoing updates and
@@ -145,7 +146,7 @@ maintenance."`,
   {
     name: "Emily R.",
     position: "Product Manager, PlayX Studios",
-    desc: `"The mobile app [Company Name] developed for us has been a game-changer. They didn’t
+    desc: `"The mobile app WaveGenX AI developed for us has been a game-changer. They didn’t
 just build an app—they created something that truly resonates with our users. It’s easy to use,
 highly functional, and aligns perfectly with our business needs. Our customers love it, and
 we’re already seeing the positive impact on our bottom line."`,
@@ -154,7 +155,7 @@ we’re already seeing the positive impact on our bottom line."`,
   {
     name: "Michael K.",
     position: "Founder, TechFlow Solutions",
-    desc: `"We had a pretty ambitious vision for our mobile app, and the team at [Company Name]
+    desc: `"We had a pretty ambitious vision for our mobile app, and the team at WaveGenX AI
 brought it to life better than we ever imagined. From the initial idea to the final product, they
 delivered an app that’s reliable, user-friendly, and has improved the way we do business. I
 highly recommend their team!"`,
@@ -163,7 +164,7 @@ highly recommend their team!"`,
   {
     name: "Rachel P.",
     position: "Head of Design, Creative Minds Agency",
-    desc: `"The team at [Company Name] really outdid themselves with our platform’s UI and UX.
+    desc: `"The team at WaveGenX AI really outdid themselves with our platform’s UI and UX.
 They designed an experience that’s visually engaging and, most importantly, incredibly easy
 to navigate. Our users have been raving about the changes, and we’ve seen a noticeable
 increase in user satisfaction and retention."`,
@@ -172,7 +173,7 @@ increase in user satisfaction and retention."`,
   {
     name: "David H.",
     position: "Lead Product Designer, Visionary Tech",
-    desc: `"[Company Name] completely transformed our product with their expert UI/UX design. They
+    desc: `"WaveGenX AI completely transformed our product with their expert UI/UX design. They
 took the time to understand both our goals and our users' needs, crafting a solution that’s not
 only beautiful but functional. Their attention to detail and user-centric approach have made a
 world of difference."`,
@@ -181,7 +182,7 @@ world of difference."`,
   {
     name: "Olivia S.",
     position: "CTO, AI Innovators",
-    desc: `"Integrating AI into our business was a big step, but [Company Name] made it seamless.
+    desc: `"Integrating AI into our business was a big step, but WaveGenX AI made it seamless.
 Their team developed a powerful AI solution that has helped us automate key processes,
 saving us time and boosting efficiency. Their expertise and ongoing support have been
 invaluable, and we’re already looking forward to our next project together."`,
@@ -190,7 +191,7 @@ invaluable, and we’re already looking forward to our next project together."`,
   {
     name: "John M.",
     position: "Director of Operations, DataWave Analytics",
-    desc: `"Thanks to [Company Name], our business is now powered by AI in a way that’s already
+    desc: `"Thanks to WaveGenX AI, our business is now powered by AI in a way that’s already
 delivering incredible results. The AI system they developed not only helps us make smarter
 decisions but also improves our overall workflow. They’ve been fantastic throughout the
 entire process, offering both guidance and hands-on support."`,
@@ -311,7 +312,7 @@ export const faqItems = [
   {
     id: 1,
     question: "How can I get in touch with WaveGenX AI Private Limited?",
-    answer: `You can reach out to us through the contact form on this page, or by emailing us directly at [email@example.com]. Alternatively, you can also call us at [Phone Number] for immediate assistance.`,
+    answer: `You can reach out to us through the contact form on this page, or by emailing us directly at ${companyDetails.email}. Alternatively, you can also call us at ${companyDetails.phone} for immediate assistance.`,
   },
   {
     id: 2,

@@ -103,7 +103,7 @@ const Home = () => {
               <CodeXml className="inline mr-2" /> <span>IT & AI Services</span>
             </div>
             <h1 data-aos="fade-up" className="heading text-white">
-              Welcome to <span className="gradient-text">AI Company – </span>
+              Welcome to <span className="gradient-text">WaveGenX AI – </span>
               <br />
               <span className="text-[#FFC200]">
                 Empowering Your Digital Growth
@@ -190,14 +190,14 @@ const Home = () => {
                 Innovation to transform your organization.
               </h3>
               <p className="description">
-                At AI Company, we are at the forefront of revolutionizing the
+                At WaveGenX AI, we are at the forefront of revolutionizing the
                 digital landscape. Our cutting-edge AI solutions, combined with
                 unmatched expertise in web and mobile development, cloud
                 computing, data analytics, and beyond, are designed to propel
                 your business into the future. Discover a world where technology
                 meets innovation, tailored to meet your unique needs. Let’s
                 build the future, together. <br />
-                <br /> At AI Company, we are at the forefront of AI innovation,
+                <br /> At WaveGenX AI, we are at the forefront of AI innovation,
                 leveraging cutting-edge technologies to transform businesses and
                 enhance user experiences. Our AI-driven solutions are designed
                 to empower organizations with the tools they need to thrive in
@@ -356,7 +356,7 @@ const Home = () => {
         <div className="flex flex-col gap-5">
           <div
             data-aos="fade-up"
-            className="bg-[#6B308C] min-h-[50vh] relative p-5 flex flex-col-reverse md:flex-row items-center gap-4 rounded-xl overflow-hidden"
+            className="bg-[#c82b93] min-h-[50vh] relative p-5 flex flex-col-reverse md:flex-row items-center gap-4 rounded-xl overflow-hidden"
           >
             <div className="flex flex-col md:w-8/12 lg:w-9/12">
               <div className="md:px-[2.5rem]">
@@ -382,7 +382,7 @@ const Home = () => {
 
           <div
             data-aos="fade-up"
-            className="bg-[#FE7624] min-h-[50vh] relative p-5 flex flex-col-reverse md:flex-row items-center gap-4 rounded-xl overflow-hidden"
+            className="bg-[#236a99] min-h-[50vh] relative p-5 flex flex-col-reverse md:flex-row items-center gap-4 rounded-xl overflow-hidden"
           >
             <div className="flex flex-col md:w-8/12 lg:w-9/12">
               <div className="md:px-[2.5rem]">
@@ -407,7 +407,7 @@ const Home = () => {
 
           <div
             data-aos="fade-up"
-            className="bg-[#F45C7B] min-h-[50vh] relative p-5 flex flex-col-reverse md:flex-row items-center gap-4 rounded-xl overflow-hidden"
+            className="bg-[#ddb36f] min-h-[50vh] relative p-5 flex flex-col-reverse md:flex-row items-center gap-4 rounded-xl overflow-hidden"
           >
             <div className="flex flex-col md:w-8/12 lg:w-9/12">
               <div className="md:px-[2.5rem]">
