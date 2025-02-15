@@ -15,7 +15,7 @@ const ServicesWeProvide = () => {
           <Link
             key={item.title}
             to={`/services/${item.title}`}
-            className={`group h-full overflow-hidden space-y-6 bg-primary/70 hover:bg-secondary/70 p-5 rounded-xl transition-all duration-300 `}
+            className={`group h-full overflow-hidden hover:scale-105 space-y-6 bg-primary/70 hover:bg-secondary/70 p-5 rounded-xl transition-all duration-300 `}
           >
             <div className="grid sm:grid-cols-[70%_auto] h-full items-center gap-4">
               <div className="h-full flex flex-col gap-3 justify-between">
