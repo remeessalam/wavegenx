@@ -55,7 +55,7 @@ const Testimonials = () => {
   return (
     <div
       className="py-[3rem] mt-[5rem] mb-[3rem] relative bg-[#c4daf86f]"
-      style={{ backgroundImage: `url(${bgImg})` }}
+      // style={{ backgroundImage: `url(${bgImg})` }}
     >
       {/* <div className="blue-bg-shape left-0 top-0 rotate-45"></div>
       <div className="blue-bg-shape right-0 bottom-3 rotate-45"></div>

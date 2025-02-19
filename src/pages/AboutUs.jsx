@@ -55,6 +55,7 @@ const AboutUs = () => {
         <div className="wrapper">
           <h2
             data-aos="fade-up"
+            data-aos-offset="-500"
             className="section-heading text-center text-white"
           >
             Our Values
@@ -80,6 +81,7 @@ const AboutUs = () => {
               return (
                 <div
                   data-aos="fade-up"
+                  data-aos-offset="-400"
                   key={title}
                   className="p-5 bg-white/5 backdrop-blur-sm text-white space-y-3 rounded-xl"
                 >
@@ -97,6 +99,7 @@ const AboutUs = () => {
       <section className="pt-[4rem] wrapper">
         <div
           data-aos="fade-up"
+          data-aos-offset="-400"
           className="max-w-5xl mx-auto rounded-2xl overflow-hidden grid md:grid-cols-2"
         >
           <div className="overflow-hidden relative">

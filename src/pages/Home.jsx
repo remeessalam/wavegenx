@@ -102,8 +102,12 @@ const Home = () => {
             >
               <CodeXml className="inline mr-2" /> <span>IT & AI Services</span>
             </div>
-            <h1 data-aos="fade-up" className="heading text-white">
-              Welcome to <span className="gradient-text">WaveGenX AI – </span>
+            <h1
+              data-aos="fade-up"
+              className="text-[2.25rem] md:text-6xl font-semibold text-white leading-snug"
+            >
+              Welcome to{" "}
+              <span className="gradient-text heading">WaveGenX AI – </span>
               <br />
               <span className="text-[#FFC200]">
                 Empowering Your Digital Growth
@@ -121,7 +125,7 @@ const Home = () => {
                   <p className="text-xl font-medium">{item.title}</p>
                   <p className="min-h-[6rem]">{item.desc}</p>
                   <div className="flex justify-between items-center gap-5">
-                    <item.icon className="w-14 h-14 fill-white" />
+                    <item.icon className="w-32 h-24  fill-white" />
                     <Link
                       to={item.landingPageLink}
                       className="bg-white/20 p-3 rounded-full"
