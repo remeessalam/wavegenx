@@ -106,10 +106,12 @@ const Home = () => {
               data-aos="fade-up"
               className="text-[2.25rem] md:text-6xl font-semibold text-white leading-snug"
             >
-              Welcome to{" "}
+              <span className="text-gray-400"> Welcome to </span>
+
               <span className="gradient-text heading">WaveGenX AI – </span>
               <br />
-              <span className="text-[#FFC200]">
+              {/* [#FFC200] */}
+              <span className="text-gray-400">
                 Empowering Your Digital Growth
               </span>
             </h1>

@@ -74,7 +74,7 @@ const LandingPage = ({ page }) => {
               <CodeXml className="inline mr-2" />
               <span>{isWeb ? "Web Development" : "App Development"}</span>
             </div>
-            <h1 data-aos="fade-up" className="heading text-white">
+            <h1 data-aos="fade-up" className="heading text-gray-400">
               Elevating Your Business with{" "}
               <span className="gradient-text">
                 {isWeb ? "Dynamic Web Solutions" : "Innovative App Solutions"}
