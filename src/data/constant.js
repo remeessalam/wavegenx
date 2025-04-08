@@ -27,7 +27,7 @@ export const companyDetails = {
   name: "WaveGenX AI",
   address: " No 25/5, Anna street , Korattur , Chennai - 600080",
   phone: "+91-8056078722",
-  email: "abc@example.com",
+  email: "info@Wavegenxai.com",
   whatsapplink:
     "https://api.whatsapp.com/send/?phone=918056078722&text&type=phone_number&app_absent=0",
 };
